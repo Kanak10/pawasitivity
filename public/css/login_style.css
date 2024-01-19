@@ -1,0 +1,111 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#main {
+  background-color: #bee3f3;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+#outer {
+  display: grid;
+  background-color: white;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 30px;
+  height: 75vh;
+  width: 75vw;
+}
+
+#inner-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#for-btn {
+  display: flex;
+  border: none;
+  background-color: white;
+  color: #533BEE;
+  margin: 5px;
+  margin-left: auto;
+}
+
+#sub-btn {
+  width: 50%;
+  border: solid black 1px;
+  background-color: #5138EE;
+  border-radius: 30px;
+  margin: 5px;
+  color: white;
+}
+
+#inner-second {
+  border-radius: 0 30px 30px 0;
+  height: 100%;
+  background: url(/public/image/dog3.jpg);
+  background-size: 100% 100%;
+  /* background: rgb(120,101,242);
+  background: linear-gradient(90deg, rgba(120,101,242,1) 56%, rgba(53,33,182,1) 100%, rgba(68,46,207,1) 100%); */
+}
+
+#form {
+  width: 50%;
+}
+
+.bt{
+  width: 50%;
+}
+
+.sign-in-btn {
+  margin-bottom: 10px;
+  border: hidden;
+}
+
+.btn {
+  border: solid rgba(209, 212, 212, 0.61) 1px;
+  border-radius: 20px;
+}
+
+.label {
+  margin: 5px;
+}
+
+.text-field {
+  border: solid rgba(209, 212, 212, 0.61) 0.5px;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.line{
+  position: relative;
+  color: rgb(209, 212, 212);
+  margin-bottom: 0px;
+}
+
+.line::before{
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: rgb(209, 212, 212);
+  left: -55px;
+  top: 12px;
+}
+
+.line::after{
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: rgb(209, 212, 212);
+  right: -55px;
+  top: 12px;
+}
+
