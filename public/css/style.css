@@ -51,7 +51,7 @@ body {
 }
 
 #image {
-    background: url(/public/image/dog.png);
+    background: url(/image/dog.png);
     background-size: 100% 100%;
 }
 
